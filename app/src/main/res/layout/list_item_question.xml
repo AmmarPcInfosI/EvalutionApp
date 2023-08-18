@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Inside list_item_question.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/rounded_background">
+    <ImageView
+        android:id="@+id/ic_app"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/taxi"
+        android:layout_marginBottom="50dp"
+        />
+
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#a83242"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+
+        android:stepSize="1.0"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="50dp" />
+    <EditText
+        android:id="@+id/answerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Suggestion"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_borders"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"/>
+</LinearLayout>

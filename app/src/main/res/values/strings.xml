@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Evalution App</string>
+    <string-array name="spinner_options_array">
+        <item>Java</item>
+        <item>C++</item>
+        <item>Python</item>
+    </string-array>
+</resources>
